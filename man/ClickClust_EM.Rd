@@ -41,7 +41,10 @@ ClickClust_EM(x, t, J, G, itemEM = 5, starts = 100, maxit = 5000,
 Returns a list with parameter and classification estimates for the best model chosen by the selection criterion.
 }
 \description{
-This function fits the continuous time first order markov model for a specified set of groups and returns the model chosen by the BIC.
+This function fits the continuous time first-order Markov model for a specified set of groups and returns the model chosen by the BIC. This is an implementation of the methodology developed in Gallaugher and McNicholas (2019).
+}
+\references{
+Michael P.B. Gallaugher and Paul D. McNicholas (2019). Clustering and semi-supervised classification for clickstream data via mixture models. arXiv preprint arXiv:1802.04849v2.
 }
 \examples{
 library(gtools)

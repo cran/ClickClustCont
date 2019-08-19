@@ -9,6 +9,9 @@
 data(SimData)
 }
 \description{
-This is a simulated dataset with 2 groups. It is in the form of a list with the first element being the list of states and the second element being the list of time stamps.
+This is a simulated dataset with two groups. It is in the form of a list with the first element being the list of states and the second element being the list of time stamps. This is an example of the simulated data used in Simulation 1B in Gallaugher and McNicholas (2019).
+}
+\references{
+Michael P.B. Gallaugher and Paul D. McNicholas (2019). Clustering and semi-supervised classification for clickstream data via mixture models. arXiv preprint arXiv:1802.04849v2.
 }
 \keyword{data}
